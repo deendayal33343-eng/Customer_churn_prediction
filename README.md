@@ -31,14 +31,14 @@ The project uses a telecommunications customer churn dataset containing customer
 7. Comparison of model performance.
 
 ## Models
-- Logistic Regression
+- Logistic Regression(Final model)
 - Decision Tree Classifier
 - Random Forest Classifier
 
 Class weighting was explored to improve the identification of customers who churn.
 
 ## Evaluation Metrics
-The models were evaluated using accuracy, precision, recall, F1-score, and confusion matrices. F1-score and recall for the churn class were given particular attention because missing a potential churn customer can be costly.
+The models were evaluated using accuracy, precision, recall, F1-score, and confusion matrices. F1-score and recall for the churn class were given particular attention because missing a potential churn customer can be costly. The model has the churn recall of about 82% and churn precision of 53% and an overall accuracy of 76%
 
 ## Key Learning Outcomes
 - Data preprocessing and categorical encoding.
